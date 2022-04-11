@@ -3,8 +3,6 @@ kind: Ingress
 metadata:
   name: jenkins-master
   namespace: devops-tools
-  annotations:
-    ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   ingressClassName: nginx
   rules:
